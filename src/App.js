@@ -99,7 +99,7 @@ const App = (props) => {
           </div>
         </div>
 
-        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div id={"product"} className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
             <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -136,7 +136,7 @@ const App = (props) => {
               </div>
               <div className="hidden md:block">
                 <a
-                  href="#"
+                  href="#product"
                   className="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Product
@@ -148,13 +148,13 @@ const App = (props) => {
                   Features
                 </a>
                 <a
-                  href="#"
+                  href="#pricing"
                   className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Pricing
                 </a>
                 <a
-                  href="#"
+                  href="#company"
                   className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Company
@@ -207,25 +207,25 @@ const App = (props) => {
                   </div>
                   <div className="px-2 pt-2 pb-3">
                     <a
-                      href="#"
+                      href="#product"
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Product
                     </a>
                     <a
-                      href="#"
+                      href="#features"
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Features
                     </a>
                     <a
-                      href="#"
+                      href="#pricing"
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Pricing
                     </a>
                     <a
-                      href="#"
+                      href="#company"
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Company
@@ -270,7 +270,7 @@ const App = (props) => {
         </div>
       </div>
       <div
-        id={"#features"}
+        id={"features"}
         className="py-16 bg-gray-50 overflow-hidden lg:py-24"
       >
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
@@ -958,7 +958,7 @@ const App = (props) => {
         </div>
       </div>
 
-      <div className="bg-gray-100">
+      <div id={"pricing"} className="bg-gray-100">
         <div className="pt-12 sm:pt-16 lg:pt-20">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
@@ -1107,7 +1107,7 @@ const App = (props) => {
         </div>
       </div>
 
-      <section className="bg-white overflow-hidden">
+      <section id={"company"} className="bg-white overflow-hidden">
         <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
           <svg
             className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -1278,6 +1278,8 @@ const App = (props) => {
                   clip-rule="evenodd"
                 />
               </svg>
+            </a><a href="#product" className="ml-6 text-gray-400 hover:text-gray-500">
+              <span>Go to top</span>
             </a>
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
