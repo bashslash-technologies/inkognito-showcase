@@ -166,8 +166,8 @@ const App = (props) => {
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow">
                   <a
-                      target={'_blank'}
-                      href="https://inkognito.netlify.app/"
+                    target={"_blank"}
+                    href="https://inkognito.netlify.app/"
                     className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
                   >
                     Log in
@@ -247,9 +247,10 @@ const App = (props) => {
                   </div>
                   <div>
                     <a
-                        target={'_blank'}
-                        href="https://inkognito.netlify.app/"
-                       className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
+                      target={"_blank"}
+                      href="https://inkognito.netlify.app/"
+                      className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                    >
                       Log in
                     </a>
                   </div>
@@ -272,7 +273,7 @@ const App = (props) => {
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="#features"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Get started
