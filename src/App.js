@@ -99,7 +99,10 @@ const App = (props) => {
           </div>
         </div>
 
-        <div id={"product"} className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div
+          id={"product"}
+          className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32"
+        >
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
             <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -159,6 +162,17 @@ const App = (props) => {
                 >
                   Company
                 </a>
+              </div>
+              <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+                <span className="inline-flex rounded-md shadow">
+                  <a
+                      target={'_blank'}
+                      href="https://inkognito.netlify.app/"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
+                  >
+                    Log in
+                  </a>
+                </span>
               </div>
             </nav>
           </div>
@@ -229,6 +243,14 @@ const App = (props) => {
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Company
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                        target={'_blank'}
+                        href="https://inkognito.netlify.app/"
+                       className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
+                      Log in
                     </a>
                   </div>
                 </div>
@@ -1278,7 +1300,11 @@ const App = (props) => {
                   clip-rule="evenodd"
                 />
               </svg>
-            </a><a href="#product" className="ml-6 text-gray-400 hover:text-gray-500">
+            </a>
+            <a
+              href="#product"
+              className="ml-6 text-gray-400 hover:text-gray-500"
+            >
               <span>Go to top</span>
             </a>
           </div>
